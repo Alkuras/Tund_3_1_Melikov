@@ -1,16 +1,16 @@
-# #Näidised 
-# # a=0 
-# # while a==0:
-# #     print(a)
-# #     a=int(input("a: "))
-# # while True:
-# #     print(a)
-# #     a=int(input("a: "))
-# #     if a==100: break
-# # for i in range(0,10,1):
-# #     print(f"{i}. samm")
-# # for i in range(10):
-# #     print(f"{i}. samm")
+#Näidised 
+# a=0 
+# while a==0:
+#     print(a)
+#     a=int(input("a: "))
+# while True:
+#     print(a)
+#     a=int(input("a: "))
+#     if a==100: break
+# for i in range(0,10,1):
+#     print(f"{i}. samm")
+# for i in range(10):
+#     print(f"{i}. samm")
 
 
 
@@ -179,6 +179,19 @@ for i in range(4):
 print(a)
 print()
 
+# #Ülesanne 8
+s=0
+u=0
+for i in range(randint(1,100)):
+    a=randint(1,100)
+    if a%2 == 0:
+        print(f"{a} on paaris")
+        s+=1
+    else:
+        print(f"{a} on paaritu")
+        u+=1
+print(f"Paaritu arvude arv: {u}")
+print(f"Paaritu arvude arv: {s}")
 
 
 # #Ülesanne 9
@@ -224,4 +237,13 @@ for i in range(1,11):
     print(ruut,end=" ")
     print(kuup)
 
+
+# Ülesanne 15
+katse=0
+while True:
+    elevant=input("Osta elevant ära! ")
+    katse +=1
+    if elevant=="elevant":
+        break
+print(f"Katse arv {katse}")
 
